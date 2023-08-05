@@ -1,0 +1,101 @@
+.mobile-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3b7fc0;
+  color: #e6e7e7;
+  border-radius: 9px;
+  width: 180px;
+  height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  z-index: -2;
+}
+.square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    width: 152px;
+    height: 89px;
+    background-color: #438dd4;
+    z-index: -1;
+  }
+
+  .topx {
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    width: 2.5px;
+    height: 20px;
+    background-color: #438dd4;
+    z-index: 0;
+  }
+
+  .circlex {
+    position: absolute;
+    top: 50%;
+    right: 93%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    background-color: #438dd4;
+    z-index: 0;
+  }
+  
+
+
+.cuerpomm {
+  padding-top: 5px;
+ 
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.titulomm {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  margin: 13px auto auto auto;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: -3px;
+  word-wrap: break-word;
+  width: 90%;
+  line-height: 1.2;
+}
+
+.tipomm {
+  font-size: 6px;
+  font-weight: normal;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.descripcionmm {
+  font-size: 8px;
+  font-weight: normal;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.react-flow__handle {
+  z-index: 2; /* Asegura que los Handles se muestren por encima de los nodos */
+}

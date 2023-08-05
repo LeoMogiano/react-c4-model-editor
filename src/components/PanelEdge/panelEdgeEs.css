@@ -1,0 +1,139 @@
+.panel_a {
+  position: absolute;
+  top: 360px;
+  right: 38px;
+  z-index: 4;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 7.5px rgba(255, 255, 255, 0.2);
+  padding: 17px;
+  width: 400px;
+}
+
+.panel_a h3 {
+  color: #000;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.panel_a input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.panel_a button {
+  background-color: #db4848;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.4s ease;
+}
+
+.panel_a button:hover {
+  background-color: #dd4040;
+}
+
+.panel_a button.save {
+  background-color: #5cb85c;
+  border-color: #eaebea;
+}
+
+.panel_a button.close-button {
+  background-color: #ddd;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  transition: all 0.4s ease;
+}
+
+.panel_a button.close-button:hover {
+  background-color: #bbb;
+}
+
+@media (prefers-color-scheme: light) {
+  .panel_a {
+    background-color: #fff;
+    border: solid 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+
+  .panel_a h3 {
+    color: #423d3d;
+  }
+
+  .panel_a input[type="text"] {
+    border-color: #ddd;
+  }
+
+  .panel_a button {
+    background-color: #db4848;
+    border: 1px;
+    color: #fff;
+  }
+
+  .panel_a button.del:hover {
+    background-color: #fff;
+    border-color: #af4c4c;
+    color: #af4c4c;
+  }
+  .panel_a button.save {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    color: #fff;
+  }
+
+  .panel_a button.save:hover {
+    background-color: #fff;
+    color: #5cb85c;
+  }
+
+  
+
+  .panel_a button.close-button {
+    background-color: #ddd;
+    color: #000;
+  }
+
+  .panel_a button.close-button:hover {
+    background-color: #bbb;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .panel_a {
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    z-index: 4;
+    margin: 2px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 7.5px rgba(255, 255, 255, 0.2);
+    padding: 17px;
+    width: 400px;
+  }
+
+  .panel_a h3 {
+    color: #fff;
+  }
+
+
+
+}

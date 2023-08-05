@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.no-controls .react-flow__controls,
+.no-controls .react-flow__button,
+.no-controls .react-flow__handle,
+.no-controls button {
+  display: none;
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  z-index: 4;
+  border-color: #423d3d;
+  border-radius: 8px;
+  margin-right: 7px;
+  padding: 0.3em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  border-color: #423d3d;
+  background-color: #423d3d;
+  color: #fff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+.button_topc {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 4;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+
+  }
+
+  a:hover {
+    color: #423d3d;
+  }
+
+  button {
+    border: solid 2px;
+    margin-right: 7px;
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+
+  a:hover {
+    color: #423d3d;
+  }
+
+  button {
+    border: 4px;
+    z-index: 4;
+    border-radius: 8px;
+    margin-right: 7px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+
+  button:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #423d3d;
+  }
+}

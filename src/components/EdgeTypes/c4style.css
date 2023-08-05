@@ -1,0 +1,35 @@
+
+/*
+-
+:root {
+  --c4-arrow-color: #0e0e0e;
+}
+
+
+ path.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+path.react-flow__edge-path.c4-edge-selection {
+  stroke-width: 40px; 
+  stroke-opacity: 0; 
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c4-arrow-color: white;
+  }
+}
+
+  
+  .c4-edge {
+    stroke: var(--c4-arrow-color);
+    stroke-dasharray: 5 5;
+  }
+  
+
+  -
+
+  */
+ 

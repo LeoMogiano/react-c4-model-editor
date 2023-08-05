@@ -1,0 +1,4 @@
+:root {
+    --light-connection-color: #000000; /* Color de línea para el modo normal */
+    --dark-connection-color: #ffffff; /* Color de línea para el modo oscuro */
+  }

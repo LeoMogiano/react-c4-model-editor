@@ -1,0 +1,181 @@
+@media (prefers-color-scheme: dark) {
+  .panel_c {
+    position: absolute;
+    right: 50px;
+    z-index: 4;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 7.5px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 350px;
+   
+  }
+
+  .panel_c h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .panel_c label {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .panel_c input {
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .panel_c input:last-child {
+    margin-right: 0;
+  }
+
+  .panel_c button {
+    background-color: #af4c4c;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .panel_c button:hover {
+    background-color: #fff;
+    color: #af4c4c;
+  }
+
+  .panel_c button.save {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+  }
+
+  .panel_c button.save:hover {
+    background-color: #fff;
+    color: #5cb85c;
+  }
+
+  .close-button {
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .panel_c {
+
+    position: absolute;
+    right: 50px;
+    z-index: 4;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: #333;
+    box-shadow: 0 0 7.5px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 350px;
+  }
+
+  .panel_c h2 {
+    color: #423d3d;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .panel_c label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #423d3d;
+  }
+
+  .panel_c input {
+    padding: 5px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border-color: #575252;
+    background-color: #fff;
+    color: #575252;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .panel_c input:last-child {
+    margin-right: 0;
+  }
+
+  .panel_c input:last-child {
+    margin-right: 0;
+  }
+
+  .panel_c button {
+    background-color: #db4848;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .panel_c button:hover {
+    background-color: #fff;
+    color: #db4848;
+  }
+
+  .panel_c button.save {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+  }
+
+  .panel_c button.save:hover {
+    background-color: #fff;
+    color: #5cb85c;
+  }
+
+  .panel_c button.del {
+    background-color: #db4848;
+    border-color: #db4848;
+  }
+
+  .panel_c button.del:hover {
+    background-color: #fff;
+    color: #db4848;
+  }
+
+  .close-button {
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+  }
+}
