@@ -3,6 +3,7 @@
 This repository contains a C4 Model Editor built using React and React Flow, powered by Vite for a fast development experience.
 I made this with chatgpt-3.5
 
+[Captura-de-pantalla-2023-08-14-001529.png](https://postimg.cc/fJgnWKm7)
 
 ## How to Run
 
